@@ -1,3 +1,7 @@
+
+-- Write a query that prints ids and create_dates from the users table
+-- where null dates are replaced by the date of the row id - 1
+
 SELECT users.id,
 CASE WHEN create_date IS NULL
      THEN
