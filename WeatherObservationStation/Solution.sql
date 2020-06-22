@@ -39,3 +39,13 @@ select TOP 1
 from station
 where lat_n > 38.7780
 order by lat_n;
+
+-- Query the Western Longitude (LONG_W)where the smallest Northern
+-- Latitude (LAT_N) in STATION is greater than 38.7780.
+-- Round your answer to 4 decimal places.
+
+select TOP 1
+    cast(round(long_w, 4, 0) as decimal(12,4)) as long_w
+from station
+where lat_n > 38.7780
+order by lat_n;
