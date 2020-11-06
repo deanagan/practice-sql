@@ -1,2 +1,2 @@
-# sql-server-queries
-Some SQL Server Queries
+# Practice SQL
+Some SQL Server Queries for practice
